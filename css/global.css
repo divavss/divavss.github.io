@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+
+
+*{margin:0;
+  padding:0;
+  font-size: 25px}
+
+.dropbtn {
+  background-color: maroon;
+  color: white;
+  font-style: 'raleway' sans-serif;
+  padding: 6px;
+  font-size: 22px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: red;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: grey;}
+
+
+  nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+    background-color: maroon;
+    z-index: 15;}
+
+
+main {
+  width: 1024px;
+  margin-top: 10px;
+  margin-left:50px;
+  margin-right: auto;
+}
+
+nav main a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  margin-top: : 80px;
+  padding-right: 10px;}
+
+  nav main a:hover {
+  text-decoration: underline;
+  color: paleturquoise;}
+
+
+  nav .selalukananatas {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background-color: pink;
+  border-radius: 15px;}
+
+
+
+
+  section.left{
+    background-color: white;
+    width: 50vw;
+    margin-top: 25px;
+    height: 800px;
+    float: left;
+    position: relative;
+  }
+
+  section.right{
+    background-color: transparent;
+    width: 50vw;
+    margin-top: 25px;
+    height: 800px;
+    float: left;
+    position: relative;
+  }
+
+   section.middle{
+    width: 550px;
+    height: 1200px;
+    background-color: transparent;
+    margin-left: 26%;
+    margin-right: 40%;
+    padding-top: 6%;
+    padding-left: 2%;
+    padding-right: 10%;
+    position: absolute;}
+
+  section.kirikecil {
+    background-color: transparent;
+    width: 375px;
+    height: 300px;
+    padding-top: 5%;
+    float: left;
+    position: absolute;
+  }
+
+  section.kanankecil
+  { background-color: transparent;
+    width: 500px;
+    height: 300px;
+    margin-left: 980px;
+    float: right;
+    position: absolute;}
+
+
+  .boxkuning{
+    margin: 10%;
+    margin-left: 20px;
+    width: 80%;
+    height: 300px;
+    position: absolute;
+  }
+
+  .boxhitam{
+    margin: 10%;
+    width: 80%;
+    height: 300px;
+    position: sticky;
+    position: absolute;
+  }
+
+
+  .foto2{
+    margin-top: 20px;
+    height: 500px;
+    width: 300px;
+    margin-left: 25%;
+    background-image: url('../image/foto1.jpg');
+    position: absolute;
+}
+
+
+/**/
+
+h1 {font-family:'raleway',sans-serif;
+    font-size: 20px;}
+
+h2 {font-family:'raleway',sans-serif;
+    font-size: 24px;
+    color: maroon;}
+
+ h3{font-family:'raleway',sans-serif;
+    font-size: 15px; 
+    font-style:bold;}
+
+h4{font-family:'Questrial',sans-serif;
+    font-size:15px;
+    line-height:25px;
+  }
+
+@media (max-width: 1024px) {
+  main {
+    width: 100vw;
+  }
+, section.kirikecil. section.kanankecil {
+    width: 100%;
+    height: 50vh;
+  }
+  
+  section.middle{
+    top: 80%;
+    left: 10%;
+    width: 90%;
+
